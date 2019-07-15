@@ -63,3 +63,7 @@ echo '    "https": 8501';
 echo '  }';
 echo '}';
 } | sudo tee /etc/consul.d/consul_configuration.json
+sudo rm /etc/consul.d/consul.hcl
+sudo rm /etc/consul.d/server.hcl
+sudo chown --recursive consul:consul /opt/consul
+sudo chown --recursive consul:consul /etc/consul.d
