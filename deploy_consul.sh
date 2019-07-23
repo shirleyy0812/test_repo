@@ -65,3 +65,4 @@ echo '}';
 } | sudo tee /etc/consul.d/consul_configuration.json
 sudo chown --recursive consul:consul /opt/consul
 sudo chown --recursive consul:consul /etc/consul.d
+sudo apt install jq -y
