@@ -67,3 +67,4 @@ sudo chown --recursive consul:consul /opt/consul
 sudo chown --recursive consul:consul /etc/consul.d
 sudo yum install epel-release -y
 sudo yum install jq -y
+sudo yum install nginx -y
